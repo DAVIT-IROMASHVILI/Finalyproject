@@ -1,4 +1,22 @@
     /* Colors and styles  */
-    @import url(variable.css)
+    /* @import url(variable.css) */
 
     /* MainContainer */
+    .container {
+        width: min(100%, 1440px);
+        margin: auto;
+    }
+
+    /* Header  */
+    .header {
+        background-color: #012426;
+        display: flex;
+    }
+
+    .li_link {
+        color: #A1C3C9;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+    }
