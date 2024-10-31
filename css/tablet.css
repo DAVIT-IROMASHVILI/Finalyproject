@@ -1,6 +1,9 @@
             /* 745-481px  */
 @media(max-width:745px){
-
+/* Header  */
+.header{
+    padding-inline: 24px;
+}
 
     
 }
@@ -8,8 +11,19 @@
 
 
 @media(max-width:481px){
+/* Header  */
+.header{
+    padding: 28px 20px;
+}
 
+.main_logo{
+    /* width: 40px;/ */
+}
 
+.header_buttons{
+    width: 32px;
+    height: 32px;
+}
 
 
 }

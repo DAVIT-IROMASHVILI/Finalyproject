@@ -54,8 +54,7 @@
     }
 
     .header_icons{
-        width: 12px;
-        height: 12px;
+        font-size: 12px;
     }
     .user_button{
         background-color: #05BCCA;
@@ -65,4 +64,10 @@
         color: #2C4246;
     }
 
+
+    .burger_icon{
+        font-size: 32px;
+        color: #05BCCA;
+        display: none;
+    }
     
