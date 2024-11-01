@@ -1,23 +1,32 @@
             /* 745-481px  */
 @media(max-width:745px){
-/* Header  */
+    /* HEADER  */   
 .header{
     padding-inline: 24px;
 }
 
+/* section1  */
+.section_home{
+    height: 480px;
+    padding-top: 32px;
+}
     
 }
 
 
 
+
+
+         /* 481PX */
 @media(max-width:481px){
-/* Header  */
+     /* HEADER  */
 .header{
     padding: 28px 20px;
 }
 
-.main_logo{
-    /* width: 40px;/ */
+.mainlogo{
+    width: 40px;
+    height: 40px;
 }
 
 .header_buttons{
@@ -25,5 +34,15 @@
     height: 32px;
 }
 
+.header_buttons{
+    width: 32px;
+    height: 32px;
+}
+
+/* SECTION 1  */
+.home_h2{
+    font-size: 24px;
+    line-height: 32px;
+}
 
 }
