@@ -193,3 +193,13 @@
     line-height: 20px;
     color: #FFFFFF;
 }
+
+/* section 1 catalog */
+.catalog{
+    padding: 96px 94px;
+    background-color: #012426;
+}
+
+.catalog_filter{
+    
+}
