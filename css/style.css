@@ -85,13 +85,13 @@
     align-items: flex-start;
 }
 
-.home_frame{
+.home_frame {
     display: flex;
     column-gap: 24px;
     align-items: center;
 }
 
-.home_span{
+.home_span {
     color: #05BCCA;
 }
 
@@ -104,7 +104,7 @@
 
 }
 
-.home_arrow{
+.home_arrow {
     width: 36px;
     height: 24px;
     background-color: #C46A2B;
@@ -112,12 +112,12 @@
     border-radius: 4px;
 }
 
-.arrow{
+.arrow {
     color: white;
 }
 
 /* Section 2 */
-.section2{
+.section2 {
     background-color: #1A1A1A;
     padding: 96px 94px;
     display: flex;
@@ -126,58 +126,59 @@
 
 }
 
-.section2_header{
+.section2_header {
     font-family: Inter;
     font-size: 36px;
     font-weight: 700;
     line-height: 52px;
-    color: #05BCCA;   
-    text-align: center;    
+    color: #05BCCA;
+    text-align: center;
     margin-bottom: 64px;
 }
 
 
-.home_card_section{
+.home_card_section {
     display: flex;
     column-gap: 20px;
 }
-.home_card{
+
+.home_card {
     padding: 8px 8px 15px 8px;
     background-color: #2C4246;
     flex: 1 1 298px;
     border: 1px solid #05BCCA;
 }
 
-.home_card_img{
+.home_card_img {
     width: 100%;
     height: 221px;
     object-fit: cover;
 }
 
-.home_card_title{
+.home_card_title {
     font-family: Inter;
     font-size: 16px;
     font-weight: 700;
     line-height: 27px;
-    color: #D9D9D9;   
-    margin-block: 16px;  
+    color: #D9D9D9;
+    margin-block: 16px;
 }
 
-.home_card_article{
+.home_card_article {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.home_card_price{
+.home_card_price {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
-    color: #05BCCA;       
+    color: #05BCCA;
 }
 
-.home_card_button{
+.home_card_button {
     width: 58px;
     height: 28px;
     background-color: #C46A2B;
@@ -186,7 +187,7 @@
     border-radius: 4px;
 }
 
-.home_card_button_p{
+.home_card_button_p {
     font-family: Inter;
     font-size: 12px;
     font-weight: 400;
@@ -195,11 +196,61 @@
 }
 
 /* section 1 catalog */
-.catalog{
+.catalog {
     padding: 96px 94px;
     background-color: #012426;
 }
 
-.catalog_filter{
-    
+.catalog_filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog_title_filter {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #D9D9D9;
+}
+
+
+.catalog_header_article_1 {
+    display: flex;
+    column-gap: 16px;
+}
+
+.catalog_header_article_2{
+    display: flex;
+    column-gap: 32px;
+}
+
+.catalog_title_sortBy {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #D9D9D9;
+}
+
+.catalog_header_button {
+    width: 160px;
+    height: 32px;
+    padding: 4px 8px;
+    background-color: #A1C3C9;
+    border: none;
+    border-radius: 4px;
+}
+
+.header_catalog_button_article {
+    display: flex;
+    column-gap: 33px;
+}
+
+.catalog_header_button_title {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #2C4246;
 }
