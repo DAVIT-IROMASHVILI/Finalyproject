@@ -209,9 +209,10 @@
 }
 
 .catalog_filter {
+    width: min(100%, 1252px);
     display: flex;
     justify-content: space-between;
-    column-gap: 859px;
+    
 }
 
 .catalog_title_filter {
@@ -266,9 +267,10 @@
 /* CATALOG CARD SECTION  */
 .card_section_catalog {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(3, 404px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 400px);
     gap: 40px 20px;
+    
     grid-template-areas:
         "CARD1 CARD2 CARD3 "
         "CARD4 CARD5 CARD6"
@@ -314,6 +316,7 @@
 
 .catalog_card {
     background-color: #2C4246;
+    overflow: hidden;
 }
 
 .catalog_card_img {
