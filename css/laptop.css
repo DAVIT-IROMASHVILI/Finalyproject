@@ -21,9 +21,22 @@
     overflow-x: scroll;
 }
 
-
 .home_card{
     flex-shrink: 0;
+}
+
+         /* CATALOG PAGE  */
+.catalog{
+    padding-inline: 32px;
+}
+
+.card_section_catalog{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 548px);
+    grid-template-areas: 
+    "CARD1 CARD2"
+    "CARD3 CARD4"
+    "CARD5 CARD6";
 }
 
 }

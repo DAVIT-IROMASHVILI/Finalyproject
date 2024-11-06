@@ -21,10 +21,6 @@
 }
 }
 
-
-
-
-
          /* 481PX */
 @media(max-width:481px){
      /* HEADER  */
@@ -42,9 +38,8 @@
     height: 32px;
 }
 
-.header_buttons{
-    width: 32px;
-    height: 32px;
+.header_section{
+    column-gap: 16px;
 }
 
 /* SECTION 1  */
@@ -56,5 +51,4 @@
 .section2{
     padding: 32px 0 32px 20px;
 }
-
 }
