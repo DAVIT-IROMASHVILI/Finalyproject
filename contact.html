@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nerko+One&display=swap"
         rel="stylesheet">
+        <link rel="icon" href="images/main_logo.svg">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/laptop.css">
     <link rel="stylesheet" href="css/tablet.css">
@@ -25,6 +26,7 @@
         <header class="header">
 
             <i class="fa-solid fa-bars burger_icon"></i>
+            <img class="xmark" src="images/xmark.svg" alt="">
 
             <nav class="header_nav">
                 <ul class="header_ul">
@@ -43,17 +45,111 @@
             </section>
         </header>
         <!-- Section 1 -->
-        <section class="section_home">
-            <section class="home_frame">
-                <h2 class="home_h2">NEW <span class="home_span">COLLECTION</span></h2>
-                <button class="home_arrow">
-                    <img class="arrow" src="images/Vector (5).svg" alt="">
-                </button>
+        <section class="contact_page">
+            <section class="contact_main">
+                <section class="form_section">
+                    <h2 class="form_header">Get in Touch</h2>
+                    <form method="get" class="form" name="form1">
+                        <section class="input_section">
+                            <input type="text" name="name" class="input_name" placeholder="Full Name">
+
+                            <input type="email" name="email" class="input_email" placeholder="Email">
+                        </section>
+
+                        <textarea name="textarea" id="textarea" class="input_textarea" placeholder="Message"></textarea>
+
+                        <button type="submit" class="form_button"><span class="form_button_title">SEND
+                                MESSAGE</span></button>
+                    </form>
+                </section>
+                <section class="map_section">
+                    <section class="contact_button_section">
+                        <a href="tel:+995568081484">
+                            <button class="contact_buttons">
+                                <span class="hover_buttons_span"><i class="fa-solid fa-phone-volume icons "></i></span>
+                            </button>
+                        </a>
+                        <a href="mailto:geogeodato@gmail.com">
+                            <button class="contact_buttons">
+                                <span class="hover_buttons_span"><i class="fa-regular fa-envelope icons "></i></span>
+                            </button>
+                        </a>
+                        <a target="_blank" href="https://maps.app.goo.gl/ptP76PKBvW4hXQHi7">
+                            <button class="contact_buttons">
+                                <span class="hover_buttons_span"><i class="fa-solid fa-location-dot icons "></i></span>
+                            </button>
+                        </a>
+                    </section>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23882.799416712016!2d44.94193553924561!3d41.561670653518135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404406b116431e59%3A0xd2fe35a8530bf4!2sHotel%20Rustavi!5e0!3m2!1sru!2sge!4v1730977253391!5m2!1sru!2sge"
+                        width="494px" height="264px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
             </section>
         </section>
-        
-    </div>
+        <!-- FOOTER  -->
+        <footer class="footer">
+            <section class="footer_section">
+                <h4 class="footer_title">Brands</h4>
+                <nav class="footer_nav">
+                    <ul class="footer_ul">
+                        <a href="" class="footer_li_link">
+                            <li class="footer_li">Fender</li>
+                        </a>
+                        <a href="" class="footer_li_link">
+                            <li class="footer_li">Gibson</li>
+                        </a>
+                        <a href="" class="footer_li_link">
+                            <li class="footer_li">Jockson</li>
+                        </a>
+                        <a href="" class="footer_li_link">
+                            <li class="footer_li">Ibanez</li>
+                        </a>
+                    </ul>
+                </nav>
+            </section>
+            <section class="footer_section">
+                <h4 class="footer_title">Information</h4>
+                <nav class="footer_nav">
+                    <ul class="footer_ul">
+                        <a href="" class="footer_li_link">
+                            <li class="footer_li middle_footer_li">Blog</li>
+                        </a>
+                        <a href="" class="footer_li_link">
+                            <li class="footer_li middle_footer_li">Delivery</li>
+                        </a>
+                        <a href="" class="footer_li_link">
+                            <li class="footer_li middle_footer_li">About</li>
+                        </a>
+                    </ul>
+                </nav>
+            </section>
+            <section class="footer_section">
+                <h4 class="footer_title">Contact</h4>
+                <nav class="footer_nav">
+                    <ul class="footer_ul">
+                        <a class="footer_li_link" target="_blank" href="https://maps.app.goo.gl/GUuKNqhPFrkM8mrs8">
+                            <li class="footer_li">Tbilisi, str, Rustaveli 24</li>
+                        </a>
+                        <a class="footer_li_link" href="tel:+(32)2 56 78 98">
+                            <li class="footer_li">+(32)2 56 78 98</li>
+                        </a>
 
+                        <li class="footer_li icons_li">
+                            <a target="_blank" href="https://www.facebook.com"><i
+                                    class="fa-brands fa-square-facebook footer_icons"></i></a>
+                            <a target="_blank" href="https://www.whatsapp.com"><i
+                                    class="fa-brands fa-whatsapp footer_icons"></i></a>
+                            <a target="_blank" href="https://www.instagram.com"><i
+                                    class="fa-brands fa-instagram footer_icons"></i></a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </section>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

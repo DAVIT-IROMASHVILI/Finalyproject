@@ -15,4 +15,24 @@
     padding-left: 8px;
 }
     
+    /* CONTACT PAGE */
+    .contact_page{
+        padding: 48px 8px;
     }
+
+    .contact_main{
+        padding: 16px 8px;
+    }
+
+    .form_header{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* FOOTER   */
+.footer{
+    padding: 32px 74px;
+}
+
+    }
+

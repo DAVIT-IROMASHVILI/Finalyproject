@@ -5,11 +5,27 @@
 }
 
 .header_nav{
-    display: none;
+    width: 200px;
+    height: 144px;
+    padding: 16px;    
+    position: fixed;
+    top: 96px;
+    left: -100%;
+    background-color: #C46A2B;
+    row-gap: 8px;
+    transition: 0.4s ease-out;
+}
+
+.header_ul{
+    flex-direction: column;
 }
 
 .burger_icon{
     display: block;
+}
+
+.show{
+    left: 0;
 }
 
 /* section 2 */
@@ -32,11 +48,32 @@
 
 .card_section_catalog{
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 548px);
-    grid-template-areas: 
-    "CARD1 CARD2"
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "CARD1 CARD2"
     "CARD3 CARD4"
-    "CARD5 CARD6";
+    "CARD5 CARD6 ";
 }
 
+.catalog_card7, .catalog_card8, .catalog_card9{
+    display: none;
+}
+
+
+    /* CONTACT PAGE  */
+    .contact_page{
+        padding-inline: 32px;
+    }
+
+    .form_section{
+        width: 100%;
+    }
+    
+    .map_section{
+        width: 100%;
+    }
+
+    /* FOOTER  */
+    .footer{
+        padding-inline: 242px;
+    }
 }

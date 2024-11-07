@@ -19,6 +19,55 @@
 .home_card_section{
     width: 100%;
 }
+
+/* CATALOG PAGE  */
+.catalog{
+    padding: 48px 24px;
+}
+
+.card_section_catalog{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:"CARD1"
+    "CARD2"
+    "CARD3"
+    "CARD4" ;
+}
+
+.catalog_card5, .catalog_card6{
+    display: none;
+}
+
+/* CONTACT PAGE  */
+.contact_page{
+    height: 100%;
+    padding: 64px 24px;
+}
+
+.contact_main{
+    padding: 16px;
+    flex-direction: column;
+    row-gap: 48px;
+}
+
+.form_section{
+    row-gap: 24px;
+}
+
+.map_section{
+    row-gap: 24px;
+}
+
+.contact_button_section{
+    column-gap: 42px;
+}
+
+/* FOOTER  */
+.footer{
+    padding-inline: 24px;
+}
+
+
 }
 
          /* 481PX */
@@ -50,5 +99,76 @@
 /* SECTION 2  */
 .section2{
     padding: 32px 0 32px 20px;
+}
+
+
+/* CATALOG PAGE  */
+.catalog{
+    padding: 32px 20px;
+}
+
+.catalog_header_button{
+    width: 38px;
+}
+
+.previous_next_section{
+    column-gap: 45px;
+}
+
+.previous_button,
+.next_button{
+    width: 52px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.catalog_title_filter{
+    display: none;
+}
+
+.previous_button_title,
+.next_button_title{
+    display: none;
+}
+
+.catalog_header_vector_img{
+    width: 24px;
+    height: 24px;
+}
+
+.catalog_header_button_title{
+    display: none;
+}
+
+/* CONTACT PAGE  */
+.contact_page{
+    padding-inline: 20px;
+}
+
+.input_section{
+    flex-direction: column;
+    row-gap: 36px;
+}
+
+.form_header{
+    font-size: 32px;
+    line-height: 39px;
+}
+
+/* FOOTER   */
+.footer{
+    padding: 20px 154px;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+}
+
+.footer_li_link{
+    text-align: center;
+}
+
+.icons_li{
+    justify-content: center;
 }
 }
