@@ -170,6 +170,11 @@
     line-height: 52px;
     color: #05BCCA;
     text-align: center;
+}
+
+.undeline_home_h3{
+    width: 187.27px;
+    border: 2px solid #05BCCA;
     margin-bottom: 64px;
 }
 
@@ -736,7 +741,20 @@ iframe {
     font-weight: 400;
     line-height: 32px;
     color: #D9D9D9;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.footer_title_underline{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+
+}
+
+.footer_underline{
+    width: 80px;
+    color: #D9D9D9;
+    /* margin-bottom: 24px; */
 }
 
 .footer_ul {
